@@ -5,5 +5,5 @@ with a [isotropic total-variation (TV) regularization](https://en.wikipedia.org/
 $$L:=\frac{1}{2}\|Ax-y^\delta\|_2^2 +  \frac{\lambda}{2} \|\nabla x\|_2^2,$$
 where $\nabla x$ denotes the directional derivative of $x$.
 
-Specifically we assume $A\in\mathbb{R}^{m\times n^2}$ the forward operator and $x\in\mathbb{R}^{n^2}$ a vectorized $n\times n$ gray-scale image.
+Specifically we assume $A\in\mathbb{R}^{m\times n^2}$ to be the forward operator and $x\in\mathbb{R}^{n^2}$ to be a vectorized $n\times n$ gray-scale image.
 
